@@ -1,0 +1,7 @@
+include ':app'
+include ':Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable'
+include ':superplayerlibrary'
+include ':ijkplayerlibrary'
+include ':library'
+include ':ShortcutBadger'
+

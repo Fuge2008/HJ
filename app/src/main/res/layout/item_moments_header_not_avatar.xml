@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical" >
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/iv_background"
+            android:layout_height="270dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/back_chat_info" />
+
+
+
+</LinearLayout>

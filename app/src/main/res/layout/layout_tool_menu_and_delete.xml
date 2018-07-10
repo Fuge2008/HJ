@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tool_layout_height"
+        android:background="@drawable/back_tool_menu"
+        android:gravity="center_vertical"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_del"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="18dp"
+                android:src="@drawable/icon_delete"
+                android:layout_height="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="5dp"
+                android:text="删除" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:background="@color/colorHeadTitle"
+            android:layout_weight="0"
+            android:layout_height="30dp"></View>
+
+        <LinearLayout
+            android:id="@+id/btn_zf"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:src="@drawable/ic_share"
+                android:layout_height="18dp" />
+
+            <TextView
+                android:id="@+id/tool_zf_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="5dp"
+                android:text="转发" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

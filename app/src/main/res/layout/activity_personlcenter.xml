@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_head_title_page"></include>
+<!--
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:text="昵称" />
+
+                <EditText
+                    android:id="@+id/nickname"
+                    android:layout_toLeftOf="@+id/register_upload_img"
+                    android:layout_marginLeft="80dp"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:layout_marginRight="10dp"
+                    android:textSize="12sp"
+                    android:textColorHint="@color/colorGray"
+                    android:hint="例如:小花"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+                <ImageView
+                    android:id="@+id/upload_img"
+                    android:layout_width="50dp"
+                    android:src="@drawable/my_headphoto"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="50dp" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/view_line_horizontal"></include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="手机号码" />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_centerVertical="true"
+                    android:textSize="12sp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:enabled="false"
+                    android:background="@null"
+                    android:textColorHint="@color/colorGray"
+                    android:hint="你的手机号码"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_horizontal"></include>
+
+
+            <LinearLayout
+                android:id="@+id/btn_select_school"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="学校名称" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/school"
+                        android:layout_width="wrap_content"
+                        android:hint="选择你的学校"
+                        android:textColorHint="@color/colorGray"
+                        android:textSize="12sp"
+                        android:enabled="false"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/btn_arrow_next" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <include layout="@layout/view_line_horizontal"></include>
+
+            <LinearLayout
+                android:id="@+id/btn_select_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="出生日期" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/birthday"
+                        android:layout_width="wrap_content"
+                        android:hint="选择日期"
+                        android:textColorHint="@color/colorGray"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:background="@null"
+                        android:editable="false"
+                        android:textSize="12sp"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/btn_arrow_next" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <include layout="@layout/view_line_horizontal"></include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/btn_select_zy"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="专业" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/zy"
+                        android:layout_width="wrap_content"
+                        android:hint="选择你的专业"
+                        android:textColorHint="@color/colorGray"
+                        android:textSize="12sp"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:focusable="false"
+                        android:editable="false"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/btn_arrow_next" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <include layout="@layout/view_line_horizontal"></include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="性别" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/layout_sex"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/m"
+                            android:layout_width="wrap_content"
+                            android:text="男"
+                            android:layout_height="wrap_content" />
+
+                        <RadioButton
+                            android:id="@+id/w"
+                            android:layout_width="wrap_content"
+                            android:text="女"
+                            android:layout_height="wrap_content" />
+                    </RadioGroup>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <include layout="@layout/view_line_horizontal"></include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="姓名" />
+
+                <EditText
+                    android:id="@+id/realname"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:layout_marginRight="10dp"
+                    android:textSize="12sp"
+                    android:textColorHint="@color/colorGray"
+                    android:hint="传播正能量，建议使用真实姓名"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+            <include layout="@layout/view_line_horizontal"></include>
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:background="@mipmap/btn_login"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:text="确定"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+ -->
+</LinearLayout>

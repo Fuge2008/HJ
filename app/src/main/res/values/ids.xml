@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- =================================二维码================================= -->
+    <item type="id" name="bgaqrcode_camera_preview" />
+
+</resources>

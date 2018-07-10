@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/table_width"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableMenuBackGroundColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="周一" />
+
+            <TextView
+                android:id="@+id/table_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="11-29" />
+
+        </LinearLayout>
+
+        <include layout="@layout/table_line_vertical"></include>
+
+        <LinearLayout
+            android:layout_width="@dimen/table_width"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableMenuBackGroundColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="周二" />
+
+            <TextView
+                android:id="@+id/table_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="11-29" />
+
+        </LinearLayout>
+
+        <include layout="@layout/table_line_vertical"></include>
+
+        <LinearLayout
+            android:layout_width="@dimen/table_width"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableMenuBackGroundColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="周三" />
+
+            <TextView
+                android:id="@+id/table_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="11-29" />
+
+        </LinearLayout>
+
+        <include layout="@layout/table_line_vertical"></include>
+
+        <LinearLayout
+            android:layout_width="@dimen/table_width"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableMenuBackGroundColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="周四" />
+
+            <TextView
+                android:id="@+id/table_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="11-29" />
+
+        </LinearLayout>
+
+        <include layout="@layout/table_line_vertical"></include>
+
+        <LinearLayout
+            android:layout_width="@dimen/table_width"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableMenuBackGroundColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="周五" />
+
+            <TextView
+                android:id="@+id/table_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="11-29" />
+
+        </LinearLayout>
+
+        <include layout="@layout/table_line_vertical"></include>
+
+        <LinearLayout
+            android:layout_width="@dimen/table_width"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableMenuBackGroundColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:layout_height="wrap_content"
+                android:text="周六" />
+
+            <TextView
+                android:id="@+id/table_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="11-29" />
+
+        </LinearLayout>
+
+        <include layout="@layout/table_line_vertical"></include>
+
+        <LinearLayout
+            android:layout_width="@dimen/table_width"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableMenuBackGroundColor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="周日" />
+
+            <TextView
+                android:id="@+id/table_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tableMenuFontColor"
+                android:text="11-29" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/table_line_horizontal"></include>
+
+</LinearLayout>

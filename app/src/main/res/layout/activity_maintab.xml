@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/ll_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_head_title_page_center"></include>
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical" >  </FrameLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/rg_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp" >
+
+            <RadioButton
+                android:id="@+id/rb_nice_record"
+                style="@style/radioButton_home"
+                android:drawableTop="@drawable/tab_menu_three_image"
+                android:text="好记" />
+
+            <RadioButton
+                android:id="@+id/rb_share_media"
+                style="@style/radioButton_home"
+                android:drawableTop="@drawable/tab_menu_two_image"
+                android:text="共享记" />
+
+            <RadioButton
+                android:id="@+id/rb_news_cneter"
+                style="@style/radioButton_home"
+                android:drawableTop="@drawable/tab_menu_one_image"
+                android:text="消息" />
+            <RadioButton
+                android:id="@+id/rb_profile_cnter"
+                style="@style/radioButton_home"
+                android:drawableTop="@drawable/tab_menu_four_image"
+                android:text="我的" />
+        </RadioGroup>
+    </LinearLayout>
+    <com.haoji.haoji.custom.DragPointView
+        android:id="@+id/seal_num"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:visibility="gone" />
+  </RelativeLayout>

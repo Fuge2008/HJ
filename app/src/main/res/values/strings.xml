@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">好记</string>
+    <string name="text_head_back">返回</string>
+    <string name="text_head_more">更多</string>
+    <string name="tab1_menu_one">大家正能量</string>
+    <string name="tab1_menu_two">好友正能量</string>
+    <string name="tab1_menu_three">我的正能量</string>
+    <string name="tab1_menu_four">收藏正能量</string>
+    <string name="tab1_menu_five">更多</string>
+    <string name="tab2_menu_one">感动型视频</string>
+    <string name="tab2_menu_two">知识型视频</string>
+    <string name="tab2_menu_three">经典短文</string>
+    <string name="tab2_menu_four">校友有话说</string>
+    <string name="tab2_menu_five">大学-视频</string>
+    <string name="tab3_menu_text">大学-日记</string>
+    <string name="tab3_menu_one">相同兴趣爱好</string>
+    <string name="tab3_menu_two">看了同一本书</string>
+
+
+    <string name="tpl_ok">确定</string>
+    <string name="tpl_cancel">取消</string>
+    <string name="tpl_key_user_icon">头像</string>
+    <string name="tpl_key_user_name">昵称</string>
+    <string name="tpl_key_user_gender">性别</string>
+    <string name="tpl_key_user_note">备注</string>
+    <string name="tpl_value_user_name">昵称</string>
+    <string name="tpl_value_user_gender">性别</string>
+    <string name="tpl_value_user_note">请填写备注信息</string>
+    <string name="tpl_sign_user_info">用户信息</string>
+    <string name="tpl_sign_up">注册</string>
+    <string name="tpl_girl">女</string>
+    <string name="tpl_boy">男</string>
+    <string name="tpl_camera">拍照</string>
+    <string name="tpl_picture">从相册获取</string>
+    <string name="tpl_change_user_name_title">更改名字</string>
+    <string name="tpl_change_user_note_title">更改备注</string>
+    <string name="tpl_input_user_name_hint">好名字可以让你的朋友更容易记住你</string>
+    <string name="tpl_input_user_note_hint">自定义备注信息，给你带来更多吸引</string>
+    <string name="tpl_no_sdcard">sdcard 卡不存在</string>
+    <string name="tpl_msg_login_hint">请输入手机号码</string>
+    <string name="tpl_verify_code_hint">请输验证码</string>
+    <string name="tpl_get_verify_code">获取验证码</string>
+    <string name="init_nickname">Nickname</string>
+    <string name="init_motto">Motto</string>
+    <string name="init_picture_path">http://110.52.167.139:8888/HaojiPic/2017060711551739713.png</string>
+    <string name="init_haoji_picture_path">http://110.52.167.139:8888/HaojiPic/20090612213754.jpg</string>
+    <string name="init_sex">1</string>
+</resources>

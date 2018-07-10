@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/table_month"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="11月" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="1" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="2" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="3" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="4" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="5" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:gravity="center"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:text="6"
+            android:id="@+id/textView" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="7" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="8" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:gravity="center"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:text="9" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="10" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="11" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_height"
+            android:background="@color/tableLeftBackGroundColor"
+            android:textColor="@color/tableLeftFontColor"
+            android:gravity="center"
+            android:text="12" />
+
+
+        <include layout="@layout/table_line_horizontal"></include>
+    </LinearLayout>
+
+    <include layout="@layout/table_line_vertical"></include>
+
+</LinearLayout>

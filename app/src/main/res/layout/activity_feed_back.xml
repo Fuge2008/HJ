@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_feed_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#cdcdcd"
+    android:orientation="vertical"
+  >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#22292c">
+
+        <LinearLayout
+            android:id="@+id/head_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/top_bar_back" />
+            <View
+                android:id="@+id/view_temp"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#14191A" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:text="意见反馈" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="48dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_button"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:id="@+id/cb1"
+            android:text="经常卡顿"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/cb2"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:text="界面难看"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/cb3"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:text="发生崩溃"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/cb4"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:text="设计老套"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:id="@+id/cb5"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:text="界面卡顿"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:id="@+id/cb6"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:text="界面卡顿"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:id="@+id/cb7"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:text="界面卡顿"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:id="@+id/cb8"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_login_red_selector"
+            android:textColor="@color/white"
+            android:text="界面卡顿"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="5dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:overScrollMode="never" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:layout_marginTop="7dp"
+        android:textSize="16sp"
+        android:text="图片反馈"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff">
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:layout_marginTop="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:textColor="#999999"
+                android:textSize="12.0sp" />
+
+
+            <EditText
+                android:paddingLeft="5dp"
+                android:id="@+id/et_info"
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_et"
+                android:textColor="#353535"
+                android:hint="请输入你的宝贵意见（100字以内）"
+                android:textSize="16sp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+</LinearLayout>
+
+
+</LinearLayout>
