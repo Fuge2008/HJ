@@ -24,7 +24,7 @@ import com.haoji.haoji.ui.FeedBackActivity;
 import com.haoji.haoji.ui.LoginActivity;
 import com.haoji.haoji.ui.MyCollectionActivity;
 import com.haoji.haoji.ui.ProfileActivity;
-import com.haoji.haoji.ui.SettingActivity;
+import com.haoji.haoji.ui.VideoListAcitivity;
 import com.haoji.haoji.util.SharedPreferencesUtil;
 import com.haoji.haoji.util.StringUtils;
 import com.haoji.haoji.util.ToastUtils;
@@ -257,12 +257,12 @@ public class ProfileFragment extends BaseFragment implements View.OnClickListene
                 break;
 
             case R.id.re_setting:
-                if (util.getIsLogin()) {
-                    startActivity(new Intent(getActivity(), SettingActivity.class));
-                }else{
-                    ToastUtils.showShortToast(getActivity(),"抱歉，请您先登录！");
-                }
-
+//                if (util.getIsLogin()) {
+//                    startActivity(new Intent(getActivity(), SettingActivity.class));
+//                }else{
+//                    ToastUtils.showShortToast(getActivity(),"抱歉，请您先登录！");
+//                }
+                startActivity(new Intent(getActivity(),VideoListAcitivity.class));
                 break;
             case R.id.re_wallet:
 

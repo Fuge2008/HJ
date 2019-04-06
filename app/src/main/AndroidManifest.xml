@@ -481,6 +481,10 @@
         <activity
             android:name=".ui.FeedBackActivity"
             android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.VideoListAcitivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".ui.SMSLoginActivity"

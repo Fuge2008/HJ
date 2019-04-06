@@ -37,7 +37,7 @@ public abstract class BaseActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        StatusBarManager.compat(this, 0xFF2B2B2B);//设置状态栏颜色
+        StatusBarManager.compat(this, 0x002B2B2B);//设置状态栏颜色
         StatusBarManager.compat(this);
         super.onCreate(savedInstanceState);
         ActivityManager.init().addActivity(this);
