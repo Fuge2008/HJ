@@ -4,4 +4,5 @@ include ':superplayerlibrary'
 include ':ijkplayerlibrary'
 include ':library'
 include ':ShortcutBadger'
+include ':videoDo'
 
