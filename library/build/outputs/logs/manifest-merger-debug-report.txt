@@ -1,29 +1,29 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:1-11:12
-INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:1-11:12
-INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:1-11:12
-INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:1-11:12
-INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:1-11:12
-INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:1-11:12
-INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:1-11:12
+ADDED from E:\Haoji\library\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\Haoji\library\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\Haoji\library\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\Haoji\library\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\Haoji\library\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\Haoji\library\AndroidManifest.xml:2:1-11:12
+INJECTED from E:\Haoji\library\AndroidManifest.xml:2:1-11:12
 	package
-		ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:3:5-49
-		INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml
-		INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml
+		ADDED from E:\Haoji\library\AndroidManifest.xml:3:5-49
+		INJECTED from E:\Haoji\library\AndroidManifest.xml
+		INJECTED from E:\Haoji\library\AndroidManifest.xml
 	android:versionName
-		ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:5:5-32
-		INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml
-		INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml
+		ADDED from E:\Haoji\library\AndroidManifest.xml:5:5-32
+		INJECTED from E:\Haoji\library\AndroidManifest.xml
+		INJECTED from E:\Haoji\library\AndroidManifest.xml
 	xmlns:android
-		ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:2:11-69
+		ADDED from E:\Haoji\library\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:4:5-31
-		INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml
-		INJECTED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml
+		ADDED from E:\Haoji\library\AndroidManifest.xml:4:5-31
+		INJECTED from E:\Haoji\library\AndroidManifest.xml
+		INJECTED from E:\Haoji\library\AndroidManifest.xml
 uses-sdk
-ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:7:5-43
+ADDED from E:\Haoji\library\AndroidManifest.xml:7:5-43
 	android:minSdkVersion
-		ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:7:15-40
+		ADDED from E:\Haoji\library\AndroidManifest.xml:7:15-40
 application
-ADDED from /mnt/android_code/source/doc/HJ/library/AndroidManifest.xml:9:5-20
+ADDED from E:\Haoji\library\AndroidManifest.xml:9:5-20

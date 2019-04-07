@@ -1,7 +1,5 @@
 package com.haoji.haoji.video.record.weight;
 
-import java.util.ArrayList;
-
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.BitmapFactory;
@@ -18,8 +16,10 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.tiktokdemo.lky.tiktokdemo.utils.DensityUtils;
-import com.tiktokdemo.lky.tiktokdemo.record.bean.SpecialEffectsProgressBean;
+import com.haoji.haoji.video.record.bean.SpecialEffectsProgressBean;
+import com.haoji.haoji.video.utils.DensityUtils;
+
+import java.util.ArrayList;
 
 
 /**

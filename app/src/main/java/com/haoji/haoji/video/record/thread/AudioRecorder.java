@@ -4,9 +4,10 @@ import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
 
-import com.heyhou.social.video.HeyhouRecorder;
-import com.tiktokdemo.lky.tiktokdemo.utils.AppUtil;
-import com.tiktokdemo.lky.tiktokdemo.utils.CheckPermissionUtil;
+import com.haoji.haoji.video.HeyhouRecorder;
+import com.haoji.haoji.video.utils.AppUtil;
+import com.haoji.haoji.video.utils.CheckPermissionUtil;
+
 /**
  * Created by lky on 2018/12/13
  * 音频录制的线程

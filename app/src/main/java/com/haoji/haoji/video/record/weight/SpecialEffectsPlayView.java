@@ -7,10 +7,10 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.SurfaceHolder;
 
-import com.heyhou.social.video.HeyhouPlayerRender;
-import com.heyhou.social.video.HeyhouPlayerService;
-import com.heyhou.social.video.VideoPlayListener;
-import com.heyhou.social.video.VideoTimeType;
+import com.haoji.haoji.video.HeyhouPlayerRender;
+import com.haoji.haoji.video.HeyhouPlayerService;
+import com.haoji.haoji.video.VideoPlayListener;
+import com.haoji.haoji.video.VideoTimeType;
 
 
 /**

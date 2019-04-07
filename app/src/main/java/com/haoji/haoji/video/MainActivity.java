@@ -1,26 +1,27 @@
 package com.haoji.haoji.video;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.tiktokdemo.lky.tiktokdemo.record.RecordVideoActivity;
-import com.tiktokdemo.lky.tiktokdemo.record.VideoCropActivity;
-import com.tiktokdemo.lky.tiktokdemo.record.bean.MusicBean;
-import com.tiktokdemo.lky.tiktokdemo.utils.AppUtil;
-import com.tiktokdemo.lky.tiktokdemo.utils.FileUtils;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.record.RecordVideoActivity;
+import com.haoji.haoji.video.record.VideoCropActivity;
+import com.haoji.haoji.video.record.bean.MusicBean;
+import com.haoji.haoji.video.utils.AppUtil;
+import com.haoji.haoji.video.utils.FileUtils;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_video_do);
         findViewById(R.id.main_record_btn).setOnClickListener(this);
         findViewById(R.id.main_crop_btn).setOnClickListener(this);
         requestPermissions();

@@ -4,8 +4,8 @@ import android.graphics.PointF;
 import android.hardware.Camera;
 import android.util.Log;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.camera.CameraEngine;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.helper.FilterInfo;
+import com.haoji.haoji.video.record.camera.camera.CameraEngine;
+import com.haoji.haoji.video.record.camera.filter.helper.FilterInfo;
 
 
 /**

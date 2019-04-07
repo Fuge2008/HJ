@@ -1,15 +1,14 @@
 package com.haoji.haoji.video.record.bean;
 
-import java.io.IOException;
-import java.io.Serializable;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-
 import android.text.TextUtils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.tiktokdemo.lky.tiktokdemo.record.helper.RecordTimeType;
+import com.haoji.haoji.video.record.helper.RecordTimeType;
+
+import java.io.Serializable;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
 
 /**
  * Created by lky on 2017/5/4.

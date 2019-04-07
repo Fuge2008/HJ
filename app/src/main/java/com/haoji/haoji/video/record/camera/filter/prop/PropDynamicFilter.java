@@ -1,18 +1,19 @@
 package com.haoji.haoji.video.record.camera.filter.prop;
 
-import java.util.ArrayList;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.PointF;
 import android.opengl.GLES20;
 import android.os.SystemClock;
 
-import com.tiktokdemo.lky.tiktokdemo.BaseApplication;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageNormalBlendFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.helper.FilterInfo;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.PointParseUtil;
+import com.haoji.haoji.video.BaseApplication;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageNormalBlendFilter;
+import com.haoji.haoji.video.record.camera.filter.helper.FilterInfo;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.video.record.camera.utils.PointParseUtil;
+
+import java.util.ArrayList;
+
 
 /**
  * Created by lky on 2017/4/24.

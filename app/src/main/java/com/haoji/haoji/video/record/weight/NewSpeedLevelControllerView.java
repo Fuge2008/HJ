@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
-import com.heyhou.social.video.VideoTimeType;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.VideoTimeType;
 
 
 /**

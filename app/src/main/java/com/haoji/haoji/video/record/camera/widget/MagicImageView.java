@@ -1,20 +1,20 @@
 package com.haoji.haoji.video.record.camera.widget;
 
-import java.nio.ByteBuffer;
-
-import javax.microedition.khronos.egl.EGLConfig;
-import javax.microedition.khronos.opengles.GL10;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.beautify.MagicJni;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.helper.SavePictureTask;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.widget.base.MagicBaseView;
+import com.haoji.haoji.video.record.camera.beautify.MagicJni;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.helper.SavePictureTask;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.video.record.camera.widget.base.MagicBaseView;
+
+import java.nio.ByteBuffer;
+
+import javax.microedition.khronos.egl.EGLConfig;
+import javax.microedition.khronos.opengles.GL10;
 
 
 /**

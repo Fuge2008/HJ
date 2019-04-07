@@ -5,8 +5,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.FrameLayout;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.camera.CameraEngine;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.record.camera.camera.CameraEngine;
 
 
 /**

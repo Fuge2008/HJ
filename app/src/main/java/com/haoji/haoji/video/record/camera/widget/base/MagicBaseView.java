@@ -1,22 +1,22 @@
 package com.haoji.haoji.video.record.camera.widget.base;
 
+import android.content.Context;
+import android.opengl.GLES20;
+import android.opengl.GLSurfaceView;
+import android.util.AttributeSet;
+
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.helper.SavePictureTask;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.video.record.camera.utils.Rotation;
+import com.haoji.haoji.video.record.camera.utils.TextureRotationUtil;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
-
-import android.content.Context;
-import android.opengl.GLES20;
-import android.opengl.GLSurfaceView;
-import android.util.AttributeSet;
-
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.helper.SavePictureTask;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.Rotation;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.TextureRotationUtil;
 
 
 /**

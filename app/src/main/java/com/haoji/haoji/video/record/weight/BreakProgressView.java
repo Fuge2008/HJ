@@ -1,7 +1,5 @@
 package com.haoji.haoji.video.record.weight;
 
-import java.util.ArrayList;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -10,8 +8,10 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.tiktokdemo.lky.tiktokdemo.utils.DensityUtils;
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.utils.DensityUtils;
+
+import java.util.ArrayList;
 
 
 /**

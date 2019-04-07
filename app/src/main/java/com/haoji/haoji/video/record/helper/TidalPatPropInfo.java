@@ -1,7 +1,7 @@
 package com.haoji.haoji.video.record.helper;
 
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.helper.FilterInfo;
+
 /**
  * Created by lky on 2017/5/3.
  */

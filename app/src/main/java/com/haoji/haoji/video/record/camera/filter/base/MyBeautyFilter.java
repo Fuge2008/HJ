@@ -1,10 +1,10 @@
 package com.haoji.haoji.video.record.camera.filter.base;
 
-import java.nio.FloatBuffer;
-
 import android.opengl.GLES20;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+
+import java.nio.FloatBuffer;
 
 
 /**

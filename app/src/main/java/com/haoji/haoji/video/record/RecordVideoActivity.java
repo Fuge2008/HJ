@@ -1,7 +1,5 @@
 package com.haoji.haoji.video.record;
 
-import java.util.ArrayList;
-
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
@@ -23,32 +21,34 @@ import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
-import com.tiktokdemo.lky.tiktokdemo.record.adapter.TidalPatRecordFilterAdapter;
-import com.tiktokdemo.lky.tiktokdemo.record.bean.MusicBean;
-import com.tiktokdemo.lky.tiktokdemo.record.bean.TidalPatRecordDraftBean;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.camera.CameraEngine;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.encoder.video.ImageEncoderCore;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.widget.MagicCameraView;
-import com.tiktokdemo.lky.tiktokdemo.record.helper.RecordTimeType;
-import com.tiktokdemo.lky.tiktokdemo.record.helper.TidalPatFilterType;
-import com.tiktokdemo.lky.tiktokdemo.record.presenter.RecordVideoContract;
-import com.tiktokdemo.lky.tiktokdemo.record.presenter.RecordVideoPresenter;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.BreakProgressView;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.CircleRecordView;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.CountDownTextView;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.NewSpeedLevelControllerView;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.ScaleRoundRectView;
-import com.tiktokdemo.lky.tiktokdemo.utils.AnimatorUtils;
-import com.tiktokdemo.lky.tiktokdemo.utils.AppUtil;
-import com.tiktokdemo.lky.tiktokdemo.utils.CheckPermissionUtil;
-import com.tiktokdemo.lky.tiktokdemo.utils.CommonSelectDialog;
-import com.tiktokdemo.lky.tiktokdemo.utils.DensityUtils;
-import com.tiktokdemo.lky.tiktokdemo.utils.FileUtils;
-import com.tiktokdemo.lky.tiktokdemo.utils.StringUtil;
-import com.tiktokdemo.lky.tiktokdemo.utils.ToastTool;
-import com.heyhou.social.video.VideoInfo;
-import com.heyhou.social.video.VideoTimeType;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.VideoInfo;
+import com.haoji.haoji.video.VideoTimeType;
+import com.haoji.haoji.video.record.adapter.TidalPatRecordFilterAdapter;
+import com.haoji.haoji.video.record.bean.MusicBean;
+import com.haoji.haoji.video.record.bean.TidalPatRecordDraftBean;
+import com.haoji.haoji.video.record.camera.camera.CameraEngine;
+import com.haoji.haoji.video.record.camera.encoder.video.ImageEncoderCore;
+import com.haoji.haoji.video.record.camera.widget.MagicCameraView;
+import com.haoji.haoji.video.record.helper.RecordTimeType;
+import com.haoji.haoji.video.record.helper.TidalPatFilterType;
+import com.haoji.haoji.video.record.presenter.RecordVideoContract;
+import com.haoji.haoji.video.record.presenter.RecordVideoPresenter;
+import com.haoji.haoji.video.record.weight.BreakProgressView;
+import com.haoji.haoji.video.record.weight.CircleRecordView;
+import com.haoji.haoji.video.record.weight.CountDownTextView;
+import com.haoji.haoji.video.record.weight.NewSpeedLevelControllerView;
+import com.haoji.haoji.video.record.weight.ScaleRoundRectView;
+import com.haoji.haoji.video.utils.AnimatorUtils;
+import com.haoji.haoji.video.utils.AppUtil;
+import com.haoji.haoji.video.utils.CheckPermissionUtil;
+import com.haoji.haoji.video.utils.CommonSelectDialog;
+import com.haoji.haoji.video.utils.DensityUtils;
+import com.haoji.haoji.video.utils.FileUtils;
+import com.haoji.haoji.video.utils.StringUtil;
+import com.haoji.haoji.video.utils.ToastTool;
+
+import java.util.ArrayList;
 
 
 /**

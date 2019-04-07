@@ -2,7 +2,9 @@ package com.haoji.haoji.video.utils;
 
 import android.content.Context;
 
-import com.tiktokdemo.lky.tiktokdemo.BaseApplication;
+import com.haoji.haoji.video.BaseApplication;
+
+
 /**
  * Created by lky on 2018/12/11
  */

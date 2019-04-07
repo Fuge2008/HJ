@@ -1,14 +1,15 @@
 package com.haoji.haoji.video.utils;
 
-import java.io.File;
-
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.MediaMetadataRetriever;
 import android.util.Base64;
 
-import com.tiktokdemo.lky.tiktokdemo.Constant;
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.Constant;
+
+import java.io.File;
+
 
 public class BitmapUtil {
     private static final String TAG = "BitmapUtil";

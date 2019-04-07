@@ -1,9 +1,5 @@
 package com.haoji.haoji.video.utils;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
-
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -13,7 +9,12 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.text.TextUtils;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 
 /**
  * Created by lky on 2016/11/24.

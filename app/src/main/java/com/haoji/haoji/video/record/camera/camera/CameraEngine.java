@@ -1,17 +1,17 @@
 package com.haoji.haoji.video.record.camera.camera;
 
-import java.io.IOException;
-import java.util.List;
-
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
-import android.hardware.Camera.CameraInfo;
 import android.hardware.Camera.Parameters;
 import android.hardware.Camera.Size;
 import android.view.Surface;
 import android.view.SurfaceView;
 
+import com.haoji.haoji.video.record.camera.camera.utils.CameraInfo;
 import com.haoji.haoji.video.record.camera.camera.utils.CameraUtils;
+
+import java.io.IOException;
+import java.util.List;
 
 
 public class CameraEngine {
@@ -376,8 +376,8 @@ public class CameraEngine {
     }
 
 
-    public static com.tiktokdemo.lky.tiktokdemo.record.camera.camera.utils.CameraInfo   getCameraInfo(){
-        com.tiktokdemo.lky.tiktokdemo.record.camera.camera.utils.CameraInfo  info = new com.tiktokdemo.lky.tiktokdemo.record.camera.camera.utils.CameraInfo();
+    public static CameraInfo   getCameraInfo(){
+       CameraInfo  info = new CameraInfo();
 
         try{
         Size size = getPreviewSize();

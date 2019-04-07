@@ -1,17 +1,6 @@
 package com.haoji.haoji.video.record.camera.filter.prop;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.PointF;
-import android.graphics.Rect;
-
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilterGroup;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageNormalBlendFilter;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilterGroup;
 
 
 /**

@@ -1,16 +1,5 @@
 package com.haoji.haoji.video.record.camera.widget;
 
-import java.io.File;
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.microedition.khronos.egl.EGLConfig;
-import javax.microedition.khronos.opengles.GL10;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -24,20 +13,28 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.camera.CameraEngine;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.camera.utils.CameraInfo;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.encoder.video.ImageEncoderCore;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.encoder.video.TextureMovieEncoder;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.MagicCameraInputFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.MagicBeautyFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.helper.SavePictureTask;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.MagicParams;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.Rotation;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.TextureRotationUtil;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.widget.base.MagicBaseView;
-import com.tiktokdemo.lky.tiktokdemo.record.helper.MagicFilterFactory;
+import com.haoji.haoji.video.record.camera.camera.CameraEngine;
+import com.haoji.haoji.video.record.camera.encoder.video.ImageEncoderCore;
+import com.haoji.haoji.video.record.camera.encoder.video.TextureMovieEncoder;
+import com.haoji.haoji.video.record.camera.filter.base.MagicCameraInputFilter;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.MagicBeautyFilter;
+import com.haoji.haoji.video.record.camera.helper.SavePictureTask;
+import com.haoji.haoji.video.record.camera.utils.MagicParams;
+import com.haoji.haoji.video.record.camera.utils.TextureRotationUtil;
+import com.haoji.haoji.video.record.camera.widget.base.MagicBaseView;
+import com.haoji.haoji.video.record.helper.MagicFilterFactory;
+
+import java.io.File;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.FloatBuffer;
+import java.nio.IntBuffer;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.microedition.khronos.egl.EGLConfig;
+import javax.microedition.khronos.opengles.GL10;
 
 
 /**

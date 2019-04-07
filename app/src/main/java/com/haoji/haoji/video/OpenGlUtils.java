@@ -1,5 +1,17 @@
 package com.haoji.haoji.video;
 
+import android.content.Context;
+import android.content.res.AssetManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.opengl.GLES11Ext;
+import android.opengl.GLES20;
+import android.opengl.GLUtils;
+import android.util.Log;
+
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.utils.MagicParams;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,18 +23,6 @@ import java.nio.FloatBuffer;
 import java.nio.IntBuffer;
 
 import javax.microedition.khronos.opengles.GL10;
-
-import android.content.Context;
-import android.content.res.AssetManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.opengl.GLES11Ext;
-import android.opengl.GLES20;
-import android.opengl.GLUtils;
-import android.util.Log;
-
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.MagicParams;
 
 
 public class OpenGlUtils {

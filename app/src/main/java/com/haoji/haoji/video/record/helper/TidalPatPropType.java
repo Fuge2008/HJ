@@ -1,7 +1,8 @@
 package com.haoji.haoji.video.record.helper;
 
 
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+
 /**
  * Created by lky on 2017/5/3.
  */

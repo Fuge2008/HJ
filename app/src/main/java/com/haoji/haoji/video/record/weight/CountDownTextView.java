@@ -11,8 +11,8 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.BounceInterpolator;
 
-import com.tiktokdemo.lky.tiktokdemo.utils.DensityUtils;
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.utils.DensityUtils;
 
 
 /**

@@ -1,16 +1,16 @@
 package com.haoji.haoji.video.record.camera.helper;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
 import android.graphics.Bitmap;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
 import android.os.AsyncTask;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.MagicParams;
+import com.haoji.haoji.video.record.camera.utils.MagicParams;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 
 public class SavePictureTask extends AsyncTask<Bitmap, Integer, String> {

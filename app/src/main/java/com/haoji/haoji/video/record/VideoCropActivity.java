@@ -1,8 +1,5 @@
 package com.haoji.haoji.video.record;
 
-import java.io.File;
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,21 +9,24 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.tiktokdemo.lky.tiktokdemo.Constant;
-import com.tiktokdemo.lky.tiktokdemo.HomeCallBack;
-import com.tiktokdemo.lky.tiktokdemo.R;
-import com.tiktokdemo.lky.tiktokdemo.record.bean.TidalPatRecordDraftBean;
-import com.tiktokdemo.lky.tiktokdemo.record.helper.RecordTimeType;
-import com.tiktokdemo.lky.tiktokdemo.record.manager.SpecialEffectsPlayManager;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.CircleProgressView;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.NewSpeedLevelControllerView;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsPlayView;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.VideoCropViewBar;
-import com.tiktokdemo.lky.tiktokdemo.utils.AppUtil;
-import com.tiktokdemo.lky.tiktokdemo.utils.ToastTool;
-import com.heyhou.social.video.HeyhouVideo;
-import com.heyhou.social.video.VideoListener;
-import com.heyhou.social.video.VideoTimeType;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.Constant;
+import com.haoji.haoji.video.HeyhouVideo;
+import com.haoji.haoji.video.HomeCallBack;
+import com.haoji.haoji.video.VideoListener;
+import com.haoji.haoji.video.VideoTimeType;
+import com.haoji.haoji.video.record.bean.TidalPatRecordDraftBean;
+import com.haoji.haoji.video.record.helper.RecordTimeType;
+import com.haoji.haoji.video.record.manager.SpecialEffectsPlayManager;
+import com.haoji.haoji.video.record.weight.CircleProgressView;
+import com.haoji.haoji.video.record.weight.NewSpeedLevelControllerView;
+import com.haoji.haoji.video.record.weight.SpecialEffectsPlayView;
+import com.haoji.haoji.video.record.weight.VideoCropViewBar;
+import com.haoji.haoji.video.utils.AppUtil;
+import com.haoji.haoji.video.utils.ToastTool;
+
+import java.io.File;
+import java.util.ArrayList;
 
 
 /**

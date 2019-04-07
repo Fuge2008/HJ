@@ -11,8 +11,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.tiktokdemo.lky.tiktokdemo.utils.DensityUtils;
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.utils.DensityUtils;
+
 
 /**
  * Created by ydc on 2017/8/28.

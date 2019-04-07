@@ -1,7 +1,8 @@
 package com.haoji.haoji.video.record.effects.adapter;
 
 
-import com.tiktokdemo.lky.tiktokdemo.record.bean.SpecialEffectsType;
+import com.haoji.haoji.video.record.bean.SpecialEffectsType;
+
 /**
  * Created by lky on 2017/6/26.
  */

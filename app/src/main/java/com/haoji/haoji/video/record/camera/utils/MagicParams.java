@@ -3,7 +3,7 @@ package com.haoji.haoji.video.record.camera.utils;
 import android.content.Context;
 import android.os.Environment;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.widget.base.MagicBaseView;
+import com.haoji.haoji.video.record.camera.widget.base.MagicBaseView;
 
 
 /**

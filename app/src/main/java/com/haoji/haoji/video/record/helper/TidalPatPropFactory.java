@@ -1,10 +1,10 @@
 package com.haoji.haoji.video.record.helper;
 
+import com.google.gson.Gson;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilterGroup;
+
 import java.util.ArrayList;
 
-import com.google.gson.Gson;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilterGroup;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.helper.FilterInfo;
 
 /**
  * Created by lky on 2017/5/3.

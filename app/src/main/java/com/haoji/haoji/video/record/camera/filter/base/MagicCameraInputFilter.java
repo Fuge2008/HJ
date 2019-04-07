@@ -1,14 +1,14 @@
 package com.haoji.haoji.video.record.camera.filter.base;
 
-import java.nio.FloatBuffer;
-
 import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.MagicParams;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.utils.MagicParams;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+
+import java.nio.FloatBuffer;
 
 
 public class MagicCameraInputFilter extends GPUImageFilter {

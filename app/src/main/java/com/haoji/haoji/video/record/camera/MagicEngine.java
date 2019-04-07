@@ -1,16 +1,16 @@
 package com.haoji.haoji.video.record.camera;
 
 
-import java.io.File;
-
 import android.hardware.Camera;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.camera.CameraEngine;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.helper.SavePictureTask;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.MagicParams;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.widget.MagicCameraView;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.widget.base.MagicBaseView;
+import com.haoji.haoji.video.record.camera.camera.CameraEngine;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.helper.SavePictureTask;
+import com.haoji.haoji.video.record.camera.utils.MagicParams;
+import com.haoji.haoji.video.record.camera.widget.MagicCameraView;
+import com.haoji.haoji.video.record.camera.widget.base.MagicBaseView;
+
+import java.io.File;
 
 
 /**

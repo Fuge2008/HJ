@@ -1,15 +1,17 @@
 package com.haoji.haoji.video.utils;
 
+import android.content.SharedPreferences;
+import android.text.TextUtils;
+
+import com.haoji.haoji.video.BaseApplication;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import android.content.SharedPreferences;
-import android.text.TextUtils;
 
-import com.tiktokdemo.lky.tiktokdemo.BaseApplication;
 /**
  * Created by lky on 2018/12/11
  */

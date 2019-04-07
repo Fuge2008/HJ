@@ -1,8 +1,5 @@
 package com.haoji.haoji.video.record.camera.widget;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,7 +8,10 @@ import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.widget.EditText;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**

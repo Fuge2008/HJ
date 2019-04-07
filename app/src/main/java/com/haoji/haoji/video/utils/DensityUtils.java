@@ -3,7 +3,8 @@ package com.haoji.haoji.video.utils;
 import android.content.Context;
 import android.util.TypedValue;
 
-import com.tiktokdemo.lky.tiktokdemo.BaseApplication;
+import com.haoji.haoji.video.BaseApplication;
+
 
 /**
  * 单位转换工具类

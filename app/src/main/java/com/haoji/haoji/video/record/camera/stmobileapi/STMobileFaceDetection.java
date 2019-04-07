@@ -1,11 +1,5 @@
 package com.haoji.haoji.video.record.camera.stmobileapi;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.Log;
@@ -13,6 +7,13 @@ import android.util.Log;
 import com.sun.jna.Pointer;
 import com.sun.jna.ptr.IntByReference;
 import com.sun.jna.ptr.PointerByReference;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
 
 public class STMobileFaceDetection {
 	private Pointer detectHandle;

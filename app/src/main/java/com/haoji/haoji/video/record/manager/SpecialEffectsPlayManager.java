@@ -1,12 +1,14 @@
 package com.haoji.haoji.video.record.manager;
 
+import com.haoji.haoji.video.HeyhouPlayerService;
+import com.haoji.haoji.video.VideoPlayListener;
+import com.haoji.haoji.video.record.bean.SpecialEffectsProgressBean;
+import com.haoji.haoji.video.record.bean.SpecialEffectsType;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.tiktokdemo.lky.tiktokdemo.record.bean.SpecialEffectsProgressBean;
-import com.tiktokdemo.lky.tiktokdemo.record.bean.SpecialEffectsType;
-import com.heyhou.social.video.HeyhouPlayerService;
-import com.heyhou.social.video.VideoPlayListener;
+
 
 
 /**

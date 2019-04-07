@@ -1,13 +1,13 @@
 package com.haoji.haoji.video;
 
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
-
 import android.opengl.GLSurfaceView;
 import android.util.Log;
 import android.view.Surface;
 
-import com.tiktokdemo.lky.tiktokdemo.utils.AppUtil;
+import com.haoji.haoji.video.utils.AppUtil;
+
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 
 /**

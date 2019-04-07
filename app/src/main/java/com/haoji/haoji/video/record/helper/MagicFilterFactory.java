@@ -1,12 +1,12 @@
 package com.haoji.haoji.video.record.helper;
 
-import java.util.ArrayList;
-
 import android.graphics.BitmapFactory;
 
-import com.tiktokdemo.lky.tiktokdemo.BaseApplication;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilterGroup;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageLookupFilter;
+import com.haoji.haoji.video.BaseApplication;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilterGroup;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageLookupFilter;
+
+import java.util.ArrayList;
 
 
 public class MagicFilterFactory{

@@ -1,7 +1,5 @@
 package com.haoji.haoji.video.record.weight;
 
-import java.util.ArrayList;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -9,16 +7,17 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.os.Handler;
 import android.os.Message;
-import android.os.SystemClock;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
 
-import com.tiktokdemo.lky.tiktokdemo.record.bean.VideoFrameBean;
-import com.heyhou.social.video.HeyhouVideo;
-import com.heyhou.social.video.VideoMetaInfo;
-import com.heyhou.social.video.VideoTimeType;
+import com.haoji.haoji.video.HeyhouVideo;
+import com.haoji.haoji.video.VideoMetaInfo;
+import com.haoji.haoji.video.VideoTimeType;
+import com.haoji.haoji.video.record.bean.VideoFrameBean;
+
+import java.util.ArrayList;
 
 
 /**

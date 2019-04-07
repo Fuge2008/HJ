@@ -4,18 +4,19 @@ package com.haoji.haoji.video.record.camera.test;
  * Created by lky on 2017/4/17.
  */
 
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.opengl.GLUtils;
+
+import com.haoji.haoji.R;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.opengl.GLUtils;
-
-import com.tiktokdemo.lky.tiktokdemo.R;
 
 /**
  * @date 2014年10月20日 下午3:09:33

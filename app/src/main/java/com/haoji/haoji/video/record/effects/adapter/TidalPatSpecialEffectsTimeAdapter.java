@@ -1,7 +1,5 @@
 package com.haoji.haoji.video.record.effects.adapter;
 
-import java.util.ArrayList;
-
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,10 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
-import com.tiktokdemo.lky.tiktokdemo.record.bean.SpecialEffectsType;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.widget.CommRecyclerViewHolder;
-import com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsSelectorButton;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.record.bean.SpecialEffectsType;
+import com.haoji.haoji.video.record.camera.widget.CommRecyclerViewHolder;
+import com.haoji.haoji.video.record.weight.SpecialEffectsSelectorButton;
+
+import java.util.ArrayList;
 
 
 /**

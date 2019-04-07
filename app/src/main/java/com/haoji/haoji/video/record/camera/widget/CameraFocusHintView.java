@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.tiktokdemo.lky.tiktokdemo.utils.DensityUtils;
+import com.haoji.haoji.video.utils.DensityUtils;
 
 
 /**

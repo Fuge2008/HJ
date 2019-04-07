@@ -1,7 +1,5 @@
 package com.haoji.haoji.video.utils;
 
-import java.util.List;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -15,7 +13,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
+import com.haoji.haoji.R;
+
+import java.util.List;
+
 
 /**
  * Created by 1 on 2016/10/13.

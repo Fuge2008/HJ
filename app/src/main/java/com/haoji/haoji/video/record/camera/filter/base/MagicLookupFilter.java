@@ -2,9 +2,9 @@ package com.haoji.haoji.video.record.camera.filter.base;
 
 import android.opengl.GLES20;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.filter.base.gpuimage.GPUImageFilter;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.MagicParams;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.camera.utils.MagicParams;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
 
 
 public class MagicLookupFilter extends GPUImageFilter {

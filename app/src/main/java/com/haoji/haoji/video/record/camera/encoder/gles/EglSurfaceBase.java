@@ -16,18 +16,19 @@
 
 package com.haoji.haoji.video.record.camera.encoder.gles;
 
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.nio.IntBuffer;
-
 import android.graphics.Bitmap;
 import android.opengl.EGL14;
 import android.opengl.EGLSurface;
 import android.opengl.GLES20;
 import android.util.Log;
 
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.IntBuffer;
 
 
 /**
