@@ -16,7 +16,7 @@
 //import android.widget.TextView;
 //
 //import com.haoji.haoji.R;
-//import com.haoji.haoji.base.BaseActivity;
+//import com.haoji.haoji.base.BaseActivity2;
 //import com.haoji.haoji.common.Constants;
 //import com.haoji.haoji.custom.CustomProgress;
 //import com.haoji.haoji.network.NetIntent;
@@ -33,7 +33,7 @@
 //import java.util.HashMap;
 //
 //
-//public class SelectActivity extends BaseActivity implements NetIntentCallBackListener.INetIntentCallBack, AdapterView.OnItemClickListener {
+//public class SelectActivity extends BaseActivity2 implements NetIntentCallBackListener.INetIntentCallBack, AdapterView.OnItemClickListener {
 //    private static String TAG = SelectActivity.class.getSimpleName();
 //    private ListView listView_select;
 //    private ArrayList<HashMap> maps = new ArrayList<HashMap>();

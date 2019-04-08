@@ -14,7 +14,7 @@
 //import android.widget.RelativeLayout;
 //
 //import com.haoji.haoji.R;
-//import com.haoji.haoji.base.BaseActivity;
+//import com.haoji.haoji.base.BaseActivity2;
 //import com.haoji.haoji.ui.LoginActivity;
 //import com.haoji.haoji.ui.SplashActivity;
 //import com.haoji.haoji.util.CommonUtils;
@@ -24,7 +24,7 @@
 //
 //
 ///** 引导界面 */
-//public class GuideActivity extends BaseActivity implements View.OnClickListener{
+//public class GuideActivity extends BaseActivity2 implements View.OnClickListener{
 //	protected static final String TAG = GuideActivity.class.getSimpleName();
 //	private ViewPager mViewPager;
 //	private ArrayList<ImageView> mImageList;// 引导页的ImageView集合

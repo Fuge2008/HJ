@@ -1,6 +1,7 @@
 package com.haoji.haoji.app;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.umeng.analytics.MobclickAgent;
@@ -10,12 +11,17 @@ import io.rong.imageloader.core.ImageLoader;
 import io.rong.imageloader.core.ImageLoaderConfiguration;
 import io.rong.imkit.RongIM;
 
+import com.fly.iconify.Iconify;
+import com.fly.iconify.fontawesome.module.FontAwesomeLightModule;
+import com.fly.iconify.fontawesome.module.FontAwesomeModule;
+
 
 public class MyApplication extends Application{
-
+    private static Application app;
     @Override
     public void onCreate() {
         super.onCreate();
+        app = this;
         //Fresco.initialize(this);
         //MultiDex.install(this);//分包设置
         SDKInitializer.initialize(this);
@@ -30,6 +36,9 @@ public class MyApplication extends Application{
         //MobclickAgent.setCatchUncaughtExceptions(true);
         //MobclickAgent.setDebugMode( true );调试时开启，防止数据污染
 
+        Iconify.with(new FontAwesomeLightModule())
+                .with(new FontAwesomeModule());
+
     }
     private void initImageLoader() {
         ImageLoaderConfiguration configuration = ImageLoaderConfiguration.createDefault(this);
@@ -41,4 +50,16 @@ public class MyApplication extends Application{
 //     super.attachBaseContext(base);
 //     MultiDex.install(this);
 //     }
+
+
+
+    public static Application getApp()
+    {
+        return app;
+    }
+
+    public static Context getAppContext() {
+        return getApp().getApplicationContext();
+    }
 }
+

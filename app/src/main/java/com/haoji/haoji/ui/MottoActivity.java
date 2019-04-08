@@ -11,7 +11,7 @@
 //import android.widget.EditText;
 //
 //import com.haoji.haoji.R;
-//import com.haoji.haoji.base.BaseActivity;
+//import com.haoji.haoji.base.BaseActivity2;
 //import com.haoji.haoji.common.Constants;
 //import com.haoji.haoji.network.NetIntent;
 //import com.haoji.haoji.network.NetIntentCallBackListener;
@@ -25,7 +25,7 @@
 //
 //
 //
-//public class MottoActivity extends BaseActivity implements View.OnClickListener, NetIntentCallBackListener.INetIntentCallBack {
+//public class MottoActivity extends BaseActivity2 implements View.OnClickListener, NetIntentCallBackListener.INetIntentCallBack {
 //
 //    private EditText edit_motto;
 //    private SharedPreferencesUtil util;

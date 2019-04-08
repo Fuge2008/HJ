@@ -15,7 +15,7 @@
 //
 //import com.squareup.okhttp.Request;
 //import com.zhulei.haoji.R;
-//import BaseActivity;
+//import BaseActivity2;
 //import CustomProgress;
 //import NetIntent;
 //import NetIntentCallBackListener;
@@ -29,7 +29,7 @@
 //
 //
 //
-//public class UserInfoActivity extends BaseActivity implements View.OnClickListener,INetIntentCallBack {
+//public class UserInfoActivity extends BaseActivity2 implements View.OnClickListener,INetIntentCallBack {
 //
 //    private static String TAG = UserInfoActivity .class.getSimpleName();
 //    private EditText phone, nickname, realname, edit_phone;

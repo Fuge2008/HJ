@@ -19,7 +19,7 @@
 //import com.haoji.haoji.R;
 //import com.haoji.haoji.adapter.CommentAdapter;
 //import com.haoji.haoji.adapter.ShowImgGridViewAdapter;
-//import com.haoji.haoji.base.BaseActivity;
+//import com.haoji.haoji.base.BaseActivity2;
 //import com.haoji.haoji.network.NetIntent;
 //import com.haoji.haoji.network.NetIntentCallBackListener;
 //import com.haoji.haoji.util.SharedPreferencesUtil;
@@ -38,7 +38,7 @@
 //
 //
 //
-//public class InfomationFragmentActivity extends BaseActivity implements NetIntentCallBackListener.INetIntentCallBack, AdapterView.OnItemClickListener,View.OnClickListener {
+//public class InfomationFragmentActivity extends BaseActivity2 implements NetIntentCallBackListener.INetIntentCallBack, AdapterView.OnItemClickListener,View.OnClickListener {
 //    private static String TAG = InfomationFragmentActivity.class.getSimpleName();
 //    private ImageView info_img;
 //    private TextView info_title, info_date, info_area, info_content, info_top;

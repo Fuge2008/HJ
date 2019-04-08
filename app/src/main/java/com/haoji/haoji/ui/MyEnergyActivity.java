@@ -25,7 +25,7 @@
 //import com.haoji.haoji.R;
 //import com.haoji.haoji.adapter.FriendAdapter_comment;
 //
-//import com.haoji.haoji.base.BaseActivity;
+//import com.haoji.haoji.base.BaseActivity2;
 //import com.haoji.haoji.network.NetIntent;
 //import com.haoji.haoji.network.NetIntentCallBackListener;
 //import com.haoji.haoji.util.SharedPreferencesUtil;
@@ -41,7 +41,7 @@
 //import java.util.HashMap;
 //
 //
-//public class MyEnergyActivity extends BaseActivity implements NetIntentCallBackListener.INetIntentCallBack
+//public class MyEnergyActivity extends BaseActivity2 implements NetIntentCallBackListener.INetIntentCallBack
 //        , View.OnClickListener
 //        , AdapterView.OnItemClickListener {
 //    private static String TAG = MyEnergyActivity.class.getSimpleName();

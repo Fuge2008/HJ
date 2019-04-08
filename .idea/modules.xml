@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HJ.iml" filepath="$PROJECT_DIR$/HJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Haoji.iml" filepath="$PROJECT_DIR$/.idea/Haoji.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable/Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable.iml" filepath="$PROJECT_DIR$/Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable/Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShortcutBadger/ShortcutBadger.iml" filepath="$PROJECT_DIR$/ShortcutBadger/ShortcutBadger.iml" />

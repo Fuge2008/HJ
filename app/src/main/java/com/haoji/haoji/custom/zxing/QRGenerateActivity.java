@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.bumptech.glide.request.animation.GlideAnimation;
+//import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.haoji.haoji.R;
 import com.haoji.haoji.base.BaseActivity;
@@ -74,7 +74,7 @@ public class QRGenerateActivity extends BaseActivity {
         picPath = util.getPicture().toString();
         tvNickName.setText(util.getNickName().toString());
         tvRegion.setText(util.getProvince() + " " + util.getCity());
-        Glide.with(this).load(picPath).diskCacheStrategy(DiskCacheStrategy.ALL).into(ivHead);
+        Glide.with(this).load(picPath).into(ivHead);
 
         if (StringUtils.isUrl(picPath)) {
             getBitmap();
@@ -84,12 +84,12 @@ public class QRGenerateActivity extends BaseActivity {
     }
 
     private void getBitmap() {
-        Glide.with(QRGenerateActivity.this).load(util.getPicture()).asBitmap().into(new SimpleTarget<Bitmap>() {
-            @Override
-            public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
-                bitmap = resource;
-            }
-        });
+//        Glide.with(QRGenerateActivity.this).load(util.getPicture()).asBitmap().into(new SimpleTarget<Bitmap>() {
+//            @Override
+//            public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
+//                bitmap = resource;
+//            }
+//        });
     }
 
     @Override

@@ -20,4 +20,9 @@
 
     <dimen name="viewpager_margin">2dp</dimen>
     <dimen name="nav_title_text_size">20sp</dimen>
+
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="avatar_width">50dp</dimen>
 </resources>

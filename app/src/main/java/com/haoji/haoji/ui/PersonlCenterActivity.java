@@ -17,7 +17,7 @@
 //
 //import com.squareup.okhttp.Request;
 //import com.zhulei.haoji.R;
-//import BaseActivity;
+//import BaseActivity2;
 //import Constants;
 //import CustomProgress;
 //import DateTimePickDialogUtil;
@@ -37,7 +37,7 @@
 // * Created by Administrator on 2017/1/19.
 // */
 //
-//public class PersonlCenterActivity extends BaseActivity implements View.OnClickListener{
+//public class PersonlCenterActivity extends BaseActivity2 implements View.OnClickListener{
 //    private static String TAG = PersonlCenterActivity.class.getSimpleName();
 //    private EditText phone, nickname, realname;
 //    private EditText school, zy, birthday;

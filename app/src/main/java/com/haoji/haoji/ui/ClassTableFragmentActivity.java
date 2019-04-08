@@ -5,7 +5,7 @@
 //import android.widget.Toast;
 //
 //import com.haoji.haoji.R;
-//import com.haoji.haoji.base.BaseActivity;
+//import com.haoji.haoji.base.BaseActivity2;
 //import com.haoji.haoji.model.TabClass;
 //
 //import java.util.ArrayList;
@@ -13,7 +13,7 @@
 //
 //
 //
-//public class ClassTableFragmentActivity extends BaseActivity {
+//public class ClassTableFragmentActivity extends BaseActivity2 {
 //    private static String TAG = ClassTableFragmentActivity.class.getSimpleName();
 //
 //    private TableClass tableCanvas;

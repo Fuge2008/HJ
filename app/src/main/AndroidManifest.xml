@@ -95,6 +95,7 @@
             android:name=".ui.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.DownloadActivity"/>
         <activity
             android:name=".ui.GuideActivity"
             android:screenOrientation="portrait"
