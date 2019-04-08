@@ -13,6 +13,11 @@ android {
         versionName "1.0"
         multiDexEnabled = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters "armeabi"
+//            abiFilters "armeabi-v7a"
+        }
     }
     lintOptions {
         abortOnError false
@@ -101,5 +106,17 @@ dependencies {
 
     //Ask perm
     implementation 'com.github.florent37:runtime-permission:1.0.1'
+
+
+    compile files('libs/gson-2.2.2.jar')
+    compile files('libs/jna-min.jar')
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    compile 'com.edmodo:cropper:1.0.1'
+    compile('com.kevin:crop:1.0.2') {
+        // 如果已经引入 support:appcompat-v7 可以加上这句话
+        exclude group: 'com.android.support', module: 'appcompat-v7'
+    }
 
 }
