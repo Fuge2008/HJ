@@ -2,6 +2,7 @@ package com.haoji.haoji.video.record.helper;
 
 import com.google.gson.Gson;
 import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilterGroup;
+import com.haoji.haoji.video.record.camera.filter.helper.FilterInfo;
 
 import java.util.ArrayList;
 

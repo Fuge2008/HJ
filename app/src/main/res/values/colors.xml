@@ -374,17 +374,12 @@
 
     <color name="color_f0">#F0F0F0</color>
 
-    <color name="transparent">#00000000</color>
 
-    <color name="white">#FFFF</color>
-
-    <color name="black">#F000</color>
 
     <color name="color_f9">#FFF9F9F9</color>
     <!-- 正在加载背景颜色值 -->
 
 
-    <color name="red">#ED4A4A</color>
 
     <!-- 字体颜色，深黑色 -->
 

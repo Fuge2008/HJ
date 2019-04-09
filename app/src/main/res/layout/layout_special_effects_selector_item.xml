@@ -6,7 +6,7 @@
     android:layout_marginLeft="15dp"
     android:layout_marginRight="20dp"
     android:layout_marginTop="8dp">
-    <com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsSelectorButton
+    <com.haoji.haoji.video.record.weight.SpecialEffectsSelectorButton
         xmlns:se_btn="http://schemas.android.com/apk/res-auto"
         android:id="@+id/tidal_pat_special_effects_item_btn"
         android:layout_width="60dp"

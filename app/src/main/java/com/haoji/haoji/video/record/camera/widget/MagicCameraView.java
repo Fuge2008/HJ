@@ -14,6 +14,7 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 
 import com.haoji.haoji.video.record.camera.camera.CameraEngine;
+import com.haoji.haoji.video.record.camera.camera.utils.CameraInfo;
 import com.haoji.haoji.video.record.camera.encoder.video.ImageEncoderCore;
 import com.haoji.haoji.video.record.camera.encoder.video.TextureMovieEncoder;
 import com.haoji.haoji.video.record.camera.filter.base.MagicCameraInputFilter;
@@ -21,6 +22,8 @@ import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
 import com.haoji.haoji.video.record.camera.filter.base.gpuimage.MagicBeautyFilter;
 import com.haoji.haoji.video.record.camera.helper.SavePictureTask;
 import com.haoji.haoji.video.record.camera.utils.MagicParams;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.video.record.camera.utils.Rotation;
 import com.haoji.haoji.video.record.camera.utils.TextureRotationUtil;
 import com.haoji.haoji.video.record.camera.widget.base.MagicBaseView;
 import com.haoji.haoji.video.record.helper.MagicFilterFactory;

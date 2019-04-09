@@ -1,17 +1,17 @@
 package com.haoji.haoji.video.record.camera.camera;
 
+import java.io.IOException;
+import java.util.List;
+
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
+import android.hardware.Camera.CameraInfo;
 import android.hardware.Camera.Parameters;
 import android.hardware.Camera.Size;
 import android.view.Surface;
 import android.view.SurfaceView;
 
-import com.haoji.haoji.video.record.camera.camera.utils.CameraInfo;
 import com.haoji.haoji.video.record.camera.camera.utils.CameraUtils;
-
-import java.io.IOException;
-import java.util.List;
 
 
 public class CameraEngine {
@@ -126,13 +126,13 @@ public class CameraEngine {
      */
     public static void setFlashMode(int flashMode){
         try{
-            Parameters parameters = camera.getParameters();
+            Camera.Parameters parameters = camera.getParameters();
             if(flashMode == FLASH_MODE_OFF){
-                parameters.setFlashMode(Parameters.FLASH_MODE_OFF);
+                parameters.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
             }else if(flashMode == FLASH_MODE_ON){
-                parameters.setFlashMode(Parameters.FLASH_MODE_TORCH);
+                parameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
             }else{
-                parameters.setFlashMode(Parameters.FLASH_MODE_AUTO);
+                parameters.setFlashMode(Camera.Parameters.FLASH_MODE_AUTO);
             }
 //        CacheUtil.putInt(AppUtil.getApplicationContext(), FLASH_MODE, flashMode);
             camera.setParameters(parameters);
@@ -271,7 +271,7 @@ public class CameraEngine {
      */
     public static int getRightCameraOrientation(int cameraId) {
 
-        CameraInfo info = new CameraInfo();
+        Camera.CameraInfo info = new android.hardware.Camera.CameraInfo();
         Camera.getCameraInfo(cameraId, info);
 
 //        int rotation = context.getWindowManager().getDefaultDisplay()
@@ -293,7 +293,7 @@ public class CameraEngine {
         }
         //
         int result;
-        if (info.facing == CameraInfo.CAMERA_FACING_FRONT) {
+        if (info.facing == Camera.CameraInfo.CAMERA_FACING_FRONT) {
             result = (info.orientation + degrees) % 360;
             result = (360 - result) % 360; // compensate the mirror
         } else { // back-facing
@@ -376,27 +376,27 @@ public class CameraEngine {
     }
 
 
-    public static CameraInfo   getCameraInfo(){
-       CameraInfo  info = new CameraInfo();
+    public static com.haoji.haoji.video.record.camera.camera.utils.CameraInfo   getCameraInfo(){
+        com.haoji.haoji.video.record.camera.camera.utils.CameraInfo  info = new com.haoji.haoji.video.record.camera.camera.utils.CameraInfo();
 
         try{
-        Size size = getPreviewSize();
-        CameraInfo cameraInfo = new CameraInfo();
-        mCameraInfo = cameraInfo;
+            Size size = getPreviewSize();
+            CameraInfo cameraInfo = new CameraInfo();
+            mCameraInfo = cameraInfo;
             Camera.getCameraInfo(cameraID, cameraInfo);
-        info.previewWidth = PREVIEW_WIDTH;
-        info.previewHeight = PREVIEW_HEIGHT;
-        info.orientation = cameraInfo.orientation;
-        info.isFront = cameraID == 1 ? true : false;
-        size = getPictureSize();
-        if (size != null){
-            info.pictureWidth = size.width;
-            info.pictureHeight = size.height;
-        }
-        if(camera != null){
-            info.flashMode = camera.getParameters().getFlashMode();
-        }
-        return info;
+            info.previewWidth = PREVIEW_WIDTH;
+            info.previewHeight = PREVIEW_HEIGHT;
+            info.orientation = cameraInfo.orientation;
+            info.isFront = cameraID == 1 ? true : false;
+            size = getPictureSize();
+            if (size != null){
+                info.pictureWidth = size.width;
+                info.pictureHeight = size.height;
+            }
+            if(camera != null){
+                info.flashMode = camera.getParameters().getFlashMode();
+            }
+            return info;
         }catch (Exception e){
             e.printStackTrace();
             return info;

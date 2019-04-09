@@ -5,11 +5,11 @@
               android:layout_height="match_parent"
     android:background="@color/theme_back">
 
-    <com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsPlayView
+    <com.haoji.haoji.video.record.weight.SpecialEffectsPlayView
         android:id="@+id/tidal_pat_crop_video_pv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal"></com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsPlayView>
+        android:layout_gravity="center_horizontal"></com.haoji.haoji.video.record.weight.SpecialEffectsPlayView>
 
     <ImageView
         android:id="@+id/tidal_pat_crop_video_back_img"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_alignParentBottom="true">
-        <com.tiktokdemo.lky.tiktokdemo.record.weight.NewSpeedLevelControllerView
+        <com.haoji.haoji.video.record.weight.NewSpeedLevelControllerView
             android:id="@+id/tidal_pat_video_crop_speed_controller_view"
             android:layout_width="match_parent"
             android:layout_height="36dp"
@@ -56,7 +56,7 @@
             android:layout_marginBottom="13dp"
             android:text="@string/tidal_pat_crop_video_selected_time"/>
 
-        <com.tiktokdemo.lky.tiktokdemo.record.weight.VideoCropViewBar
+        <com.haoji.haoji.video.record.weight.VideoCropViewBar
             android:id="@+id/tidal_pat_video_crop_crop_view"
             android:layout_width="match_parent"
             android:layout_height="70dp"
@@ -115,7 +115,7 @@
                 <!--android:scaleType="fitXY"-->
                 <!--android:src="@mipmap/run" />-->
 
-            <com.tiktokdemo.lky.tiktokdemo.record.weight.CircleProgressView
+            <com.haoji.haoji.video.record.weight.CircleProgressView
                 xmlns:circle="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/personal_show_loading_img"
                 android:layout_width="50dp"

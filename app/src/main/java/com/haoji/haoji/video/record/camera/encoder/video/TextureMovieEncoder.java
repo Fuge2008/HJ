@@ -27,6 +27,11 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
+import com.haoji.haoji.video.record.camera.camera.utils.CameraInfo;
+import com.haoji.haoji.video.record.camera.encoder.gles.EglCore;
+import com.haoji.haoji.video.record.camera.filter.base.MagicCameraInputFilter;
+import com.haoji.haoji.video.record.camera.filter.base.gpuimage.GPUImageFilter;
+import com.haoji.haoji.video.record.helper.MagicFilterFactory;
 
 
 /**

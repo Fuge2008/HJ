@@ -17,6 +17,8 @@
 package com.haoji.haoji.video.record.camera.filter.base.gpuimage;
 
 
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
 
 public class GPUImageLookupFilter extends GPUImageTwoInputFilter {
 

@@ -2,9 +2,10 @@ package com.haoji.haoji.video.record.camera.filter.base.gpuimage;
 
 import android.opengl.GLES20;
 
-import com.tiktokdemo.lky.tiktokdemo.R;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.MagicParams;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.R;
+import com.haoji.haoji.video.record.camera.utils.MagicParams;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+
 
 
 /**

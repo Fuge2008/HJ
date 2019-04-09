@@ -43,11 +43,11 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal">
             <!--chaopai_play-->
-            <com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsPlayView
+            <com.haoji.haoji.video.record.weight.SpecialEffectsPlayView
                 android:id="@+id/tidal_pat_record_video_upload_pv"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"></com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsPlayView>
+                android:layout_gravity="center_horizontal"></com.haoji.haoji.video.record.weight.SpecialEffectsPlayView>
             <ImageView
                 android:id="@+id/tidal_pat_record_video_upload_pv_btn"
                 android:layout_width="25dp"
@@ -79,7 +79,7 @@
                     android:textSize="12sp"
                     android:textColor="@color/white"
                     android:text="00:00"/>
-                <com.tiktokdemo.lky.tiktokdemo.record.weight.SpecialEffectsSeekBar
+                <com.haoji.haoji.video.record.weight.SpecialEffectsSeekBar
                     android:id="@+id/tidal_pat_upload_se_seek_bar"
                     android:layout_width="0dp"
                     android:layout_height="28dp"
@@ -370,7 +370,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp">
 
-            <com.tiktokdemo.lky.tiktokdemo.record.weight.ScaleRoundRectView
+            <com.haoji.haoji.video.record.weight.ScaleRoundRectView
                 android:id="@+id/tidal_pat_record_cut_audio_scale_view"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
@@ -435,7 +435,7 @@
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
-                    <com.tiktokdemo.lky.tiktokdemo.record.weight.TidalPatAdjustSeekBar
+                    <com.haoji.haoji.video.record.weight.TidalPatAdjustSeekBar
                         android:id="@+id/tidal_pat_record_volume_original_sound_seek_bar"
                         android:layout_width="match_parent"
                         android:layout_height="27dp" />
@@ -457,7 +457,7 @@
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
-                    <com.tiktokdemo.lky.tiktokdemo.record.weight.TidalPatAdjustSeekBar
+                    <com.haoji.haoji.video.record.weight.TidalPatAdjustSeekBar
                         android:id="@+id/tidal_pat_record_volume_background_music_seek_bar"
                         android:layout_width="match_parent"
                         android:layout_height="27dp" />

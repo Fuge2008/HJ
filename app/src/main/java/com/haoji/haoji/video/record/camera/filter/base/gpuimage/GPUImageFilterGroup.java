@@ -26,7 +26,9 @@ import android.annotation.SuppressLint;
 import android.graphics.PointF;
 import android.opengl.GLES20;
 
-
+import com.haoji.haoji.video.record.camera.filter.prop.PropDynamicFilter;
+import com.haoji.haoji.video.record.camera.utils.Rotation;
+import com.haoji.haoji.video.record.camera.utils.TextureRotationUtil;
 
 
 /**

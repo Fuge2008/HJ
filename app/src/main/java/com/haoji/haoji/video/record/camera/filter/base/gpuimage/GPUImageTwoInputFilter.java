@@ -25,9 +25,10 @@ import android.graphics.PointF;
 import android.opengl.GLES20;
 import android.util.Log;
 
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.OpenGlUtils;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.Rotation;
-import com.tiktokdemo.lky.tiktokdemo.record.camera.utils.TextureRotationUtil;
+import com.haoji.haoji.video.record.camera.utils.OpenGlUtils;
+import com.haoji.haoji.video.record.camera.utils.Rotation;
+import com.haoji.haoji.video.record.camera.utils.TextureRotationUtil;
+
 
 
 public class GPUImageTwoInputFilter extends GPUImageFilter {

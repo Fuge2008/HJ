@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/mnt/android_code/source/doc/HJ/Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable/src/main/assets"/><source path="/mnt/android_code/source/doc/HJ/Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/mnt/android_code/source/doc/HJ/Rong_Cloud_Android_IMKit_SDK_v2_7_2_stable/src/debug/assets"/></dataSet></merger>

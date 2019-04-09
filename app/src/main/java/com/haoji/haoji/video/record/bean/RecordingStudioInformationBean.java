@@ -7,10 +7,11 @@ import java.util.ArrayList;
 
 import android.text.TextUtils;
 
-import com.tiktokdemo.lky.tiktokdemo.Constant;
-import com.tiktokdemo.lky.tiktokdemo.utils.FileUtils;
-import com.tiktokdemo.lky.tiktokdemo.utils.HomeCacheUtil;
-import com.tiktokdemo.lky.tiktokdemo.HomeCallBack;
+import com.haoji.haoji.video.Constant;
+import com.haoji.haoji.video.HomeCallBack;
+import com.haoji.haoji.video.utils.FileUtils;
+import com.haoji.haoji.video.utils.HomeCacheUtil;
+
 
 /**
  * Created by lky on 2017/8/28.
